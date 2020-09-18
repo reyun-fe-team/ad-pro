@@ -1,0 +1,64 @@
+{
+  "name": "ad-pro-test",
+  "version": "0.1.2",
+  "private": false,
+  "license": "MIT",
+  "description": "An enterprise-class UI design language and Vue UI library with a set of high-quality Vue components, focus on AD industry",
+  "keywords": [
+    "Vue.js UI library",
+    "Vue Component",
+    "AD industry"
+  ],
+  "author": "fe@reyun.com",
+  "repository": {
+    "type": "https",
+    "url": "https://github.com/reyun-fe-team/ad-pro"
+  },
+  "files": [
+    "lib"
+  ],
+  "module": "lib/ad-pro.umd.js",
+  "sideEffects": false,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lib": "vue-cli-service build --target lib --name ad-pro --dest lib packages/index.js",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+  },
+  "peerDependencies": {
+    "core-js": "^3.6.5",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "core-js": "^3.6.5",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "vue": "^2.6.12",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
