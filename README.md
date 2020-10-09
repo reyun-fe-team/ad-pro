@@ -1,7 +1,6 @@
 # [AD-Pro](http://www.alexshan.com/) &middot; ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg) 
 
-description": "An enterprise-class UI design language and Vue UI library with a set of high-quality Vue components, focus on AD industry
-
+An enterprise-class UI design language and Vue UI library with a set of high-quality Vue components, focus on AD industry
 
 ## 使用 npm 或 yarn 安装 
 

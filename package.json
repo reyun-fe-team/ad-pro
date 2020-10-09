@@ -6,7 +6,8 @@
   "description": "An enterprise-class UI design language and Vue UI library with a set of high-quality Vue components, focus on AD industry",
   "keywords": [
     "Vue.js UI library",
-    "Vue Component",
+    "Vue Components",
+    "AD Components",
     "AD industry"
   ],
   "author": "fe@reyun.com",
@@ -23,22 +24,35 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lib": "vue-cli-service build --target lib --name ad-pro --dest lib packages/index.js",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "storybook": "start-storybook -p 6006",
+    "prepare": "npm run lib",
+    "build-storybook": "build-storybook"
   },
   "dependencies": {
+    "ad-pro": "file:ad-pro-0.1.2.tgz"
   },
   "peerDependencies": {
     "core-js": "^3.6.5",
     "vue": "^2.6.11"
   },
   "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@storybook/addon-actions": "^6.0.21",
+    "@storybook/addon-essentials": "^6.0.21",
+    "@storybook/addon-links": "^6.0.21",
+    "@storybook/vue": "^6.0.21",
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-eslint": "~4.5.0",
-    "@vue/cli-service": "~4.5.0",
+    "@vue/cli-service": "^4.5.7",
     "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.1.0",
     "core-js": "^3.6.5",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
+    "less": "^3.12.2",
+    "less-loader": "^7.0.1",
+    "react-is": "^16.13.1",
     "vue": "^2.6.12",
     "vue-template-compiler": "^2.6.11"
   },
