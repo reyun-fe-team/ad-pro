@@ -68,16 +68,3 @@ export default {
 <style scoped lang="less">
 @import "./index.less";
 </style>
-
-<style scoped lang="less">
-body {
-  background-color: green;
-}
-
-.x-button {
-  display: inline-block;
-  padding: 3px 6px;
-  background: #000;
-  color: #fff;
-}
-</style>
